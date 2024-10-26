@@ -13,14 +13,14 @@ function Hero() {
             <h1 className="font-black mt-3 text-5xl lg:w-[85%] text-primaryDark">
               {user_info.main.name}
             </h1>
-            <div className="flex">
+            <div className="flex flex-col-reverse lg:flex-row">
               <p className="mt-6 dark:text-zinc-300 text-base font-light lg:w-[75%] leading-7 text-justify">
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {user_info.main.description}
               </p>
-              <div className="w-[25%] flex justify-center py-4">
+              <div className="sm:w-[25%] flex justify-center py-4">
                 <img
                   src={user_info.main.photo}
-                  className="mb-6"
+                  className="lg:mb-6"
                   alt="Profile Picture"
                 />
               </div>
@@ -42,14 +42,6 @@ function Hero() {
               </a>
             </div>
           </div>
-
-          {/* <div className="hidden lg:block self-center">
-            <img
-              className="rounded-[10%] transform rotate-3"
-              src={user_info.main.photo}
-              alt="Daniel Shan Balico Graduation Picture"
-            />
-          </div> */}
         </div>
       </div>
     </section>
