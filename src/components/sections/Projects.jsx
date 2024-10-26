@@ -6,7 +6,7 @@ function Projects() {
     <>
       <section
         id="projects"
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 lg:px-16"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-8 lg:px-12"
       >
         {user_info.projects.map((project, index) => {
           return (
@@ -17,6 +17,7 @@ function Projects() {
               technologies={project.technologies}
               github={project.github}
               link={project.link}
+              app_photo={project.app_photo}
             />
           );
         })}

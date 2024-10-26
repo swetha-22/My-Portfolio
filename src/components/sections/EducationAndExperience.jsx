@@ -4,7 +4,7 @@ import { FaBuildingUser } from "react-icons/fa6";
 
 function EducationAndExperience() {
   return (
-    <section id="education-and-experience" className="mt-20 mx-4 lg:mx-20 flex flex-col md:flex-row gap-4 md:gap-2">
+    <section id="education-and-experience" className="mt-20 mx-4 lg:mx-20 flex flex-col md:flex-col gap-4 md:gap-2">
       {/* =========== EDUCATION =========== */}
       <div className="w-full md:w-[80%]">
         {/* =========== EDUCATION TITLE =========== */}
@@ -57,7 +57,7 @@ function EducationAndExperience() {
           Experience
         </h4>
 
-        <div className="md:h-[480px] md:overflow-y-scroll scroll-smooth">
+        <div className=" md:overflow-y-scroll scroll-smooth">
           {/* =========== EXPERIENCE LIST =========== */}
           {user_info.experience.map((exp, index) => {
             return (
