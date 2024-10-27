@@ -33,7 +33,7 @@ function Homepage() {
 
   return (
     <div className="bg-zinc-100 dark:bg-zinc-900">
-      <div className="md:pt-12 xl:w-[1200px] md:mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-950">
+      <div className="md:pt-10 xl:w-[1200px] md:mx-auto h-full border-x border-zinc-100 dark:border-zinc-800 bg-white dark:bg-zinc-950">
         <ToggleTheme switchTheme={switchTheme} />
         <div className="absolute ml-5 md:ml-10 md:top-12">
           <button onClick={handleDownload} className="flex w-[170px] p-1 px-3 py-3 text-primaryDark border border-primaryDark hover:bg-primary hover:text-white hover:border-primary dark:bg-primaryLightest font-medium transition-all duration-300 rounded-lg">
